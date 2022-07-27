@@ -1,2 +1,2 @@
 # my-cpp-cheatsheet
-Personal repository for STL, Algorithm and Data structure revision 
+Personal repository for STL, Algorithms and Data Structure revision 
