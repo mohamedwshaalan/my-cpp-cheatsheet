@@ -28,5 +28,7 @@ int main()
 
   bool flag = v.empty(); // returns bool true if vector is empty and false if not
 
+  reverse(v.begin(), v.end()); // reverses vector
+
   return 0;
 }
