@@ -30,5 +30,9 @@ int main()
 
   reverse(v.begin(), v.end()); // reverses vector
 
+  sort(v.begin(), v.end()); // sorts vector ascendingly
+
+  sort(v.begin(), v.end(), greater<int>()); // sorts vector descindingly
+
   return 0;
 }
