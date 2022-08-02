@@ -17,6 +17,21 @@ int main()
   }
 
   string s = "Test";
+  for (auto i : s)
+  {
+    cout << i << " "; // here (i) is a char
+  }
+
+  int n = 5;
+  vector<int> v(n);
+  for (auto &x : v) // takes input of vector sized n
+  {
+    cin >> x;
+  }
+  for (auto x : v) // outputs all elemnts of v
+  {
+    cout << x << " ";
+  }
 
   return 0;
 }
